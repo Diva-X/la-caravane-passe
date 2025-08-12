@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0prey78ol884"]
+
+[ext_resource type="Script" uid="uid://cilk3u0tfvpw2" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+
+[node name="Nouveau jeu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 2.0
+offset_right = 110.0
+offset_bottom = 33.0
+text = "Nouveau jeu"
+
+[node name="Continuer" type="Button" parent="."]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 43.0
+offset_right = 91.0
+offset_bottom = 74.0
+text = "Continuer"
+
+[node name="Options" type="Button" parent="."]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 124.0
+offset_right = 79.0
+offset_bottom = 155.0
+text = "Options
+"
+
+[node name="Quitter" type="Button" parent="."]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 163.0
+offset_right = 75.0
+offset_bottom = 194.0
+text = "Quitter"
+
+[node name="Charger partie" type="Button" parent="."]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 81.0
+offset_right = 127.0
+offset_bottom = 112.0
+text = "Charger partie"
